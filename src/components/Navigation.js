@@ -13,11 +13,11 @@ export default function Navigation({ currentPage, handlePageChange }) {
           <Nav.Link eventKey="Portfolio" onClick={() => handlePageChange('Portfolio')}>
             Portfolio
           </Nav.Link>
-          <Nav.Link eventKey="Resume" onClick={() => handlePageChange('Resume')}>
-            Resume
-          </Nav.Link>
           <Nav.Link eventKey="Contact" onClick={() => handlePageChange('Contact')}>
             Contact
+          </Nav.Link>
+          <Nav.Link eventKey="Resume" onClick={() => handlePageChange('Resume')}>
+            Resume
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
