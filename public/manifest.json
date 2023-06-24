@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Josh Portfolio",
+  "name": "Joshua Jenkins Professional Portfolio",
+  "description": "Professional portfolio of Joshua Jenkins, built with React and JavaScript.",
   "icons": [
     {
       "src": "favicon.ico",
