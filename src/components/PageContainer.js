@@ -15,7 +15,7 @@ export default function PageContainer() {
             return <About />;
           case 'Portfolio':
             return <Portfolio />;
-            case 'Contact':
+          case 'Contact':
             return <Contact />;
           case 'Resume':
             return <Resume />;
