@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Contact(props) {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -24,6 +24,11 @@ export default function Contact(props) {
     } else {
       console.log(formData);
       setErrorMessage('');
+      setFormData({
+        name: '',
+        email: '',
+        message: ''
+      })
     }
   };
 
@@ -31,7 +36,7 @@ export default function Contact(props) {
     <main className="d-flex flex-column align-items-center justify-content-around">
       <h1>Contact Me</h1>
       {errorMessage && <p className="text-danger">{errorMessage}</p>}
-      <form onSubmit={handleContactFormSubmit}>
+      <form className="d-flex flex-column align-items-center justify-content-around" onSubmit={handleContactFormSubmit}>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" value={formData.name} onChange={handleInputChange}/>
 
