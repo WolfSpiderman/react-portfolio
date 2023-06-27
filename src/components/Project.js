@@ -1,3 +1,93 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BiLogoGithub } from 'react-icons/bi';
 
-export default function Project() {}
+export default function Project() {
+  const projects = [
+    {
+      title: 'Caf-Fiend',
+      subtitle: 'Full Stack: MySQL, Express, Handlebars, Node.js',
+      imgSrc: `${process.env.PUBLIC_URL}/images/caf-screenshot.png`,
+      link: 'https://github.com/WolfSpiderman/Caf-Fiend-wolf',
+      gitLink: 'https://github.com/WolfSpiderman/Caf-Fiend-wolf'
+    },
+    {
+      title: 'TRICKvial MORTsuit',
+      subtitle: 'JavaScript, CSS, HTML',
+      imgSrc: `${process.env.PUBLIC_URL}/images/trickvialmortsuit.png`,
+      link: 'https://wolfspiderman.github.io/t-rick-vial-mort-suit/',
+      gitLink: 'https://github.com/WolfSpiderman/t-rick-vial-mort-suit'
+    },
+    {
+      title: 'Tech Blog',
+      subtitle: 'Full Stack: MySQL, Express, Handlebars, Node.js',
+      imgSrc: `${process.env.PUBLIC_URL}/images/stockasdf.jpg`,
+      link: 'https://timesuckblog300.herokuapp.com/',
+      gitLink: 'https://github.com/WolfSpiderman/tech-blog'
+    },
+    {
+      title: 'Social Network APIs',
+      subtitle: 'Rest APIs using MongoDB, Express, Node.js',
+      imgSrc: `${process.env.PUBLIC_URL}/images/sotkc.jpg`,
+      link: 'https://github.com/WolfSpiderman/social-network-apis',
+      gitLink: 'https://github.com/WolfSpiderman/social-network-apis'
+    },
+    {
+      title: 'Employee Database Manager',
+      subtitle: 'CMS using MySQL, Express, Node.js',
+      imgSrc: `${process.env.PUBLIC_URL}/images/matrixStock.jpg`,
+      link: 'https://github.com/WolfSpiderman/employee-tracker',
+      gitLink: 'https://github.com/WolfSpiderman/employee-tracker'
+    },
+    {
+      title: 'README Generator',
+      subtitle: 'Node.js',
+      imgSrc: `${process.env.PUBLIC_URL}/images/workStock.jpg`,
+      link: 'https://github.com/WolfSpiderman/readme-generator',
+      gitLink: 'https://github.com/WolfSpiderman/readme-generator'
+    }
+  ];
+
+  const handleMouseLeave = (e) => {
+      const target = e.currentTarget;
+      const relatedTarget = e.relatedTarget;
+  
+      // Check if target and relatedTarget are valid nodes
+      if (target instanceof Node && relatedTarget instanceof Node) {
+          if (!target.contains(relatedTarget)) {
+              const nextSibling = target.nextSibling;
+  
+              // Check if nextSibling exists and contains a <a> child element before accessing its style
+              if(nextSibling && nextSibling.querySelector('a')) {
+                  nextSibling.style.display = 'none';
+              }
+          }
+      }
+  };
+  
+  
+
+  return (
+    <div className="d-flex justify-content-around flex-wrap">
+      {projects.map((project, index) => (
+        <div style={{ position: "relative", display: "inline-block", maxWidth: "40vw", border: "3px solid #ccc", margin: "10px" }} key={index}>
+          <div>
+            <a href={project.link}>
+              <img src={project.imgSrc} alt={`Screenshot of ${project.title}`} style={{ maxWidth: "40vw" }} className="project-img" />
+            </a>
+          </div>
+          <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", color: "#fff", padding: "10px", position: "absolute", bottom: "0", left: "0", right: "0", textAlign: "center" }}>
+            <h3>{project.title}</h3>
+            <p>{project.subtitle}</p>
+          </div>
+          {project.gitLink && (
+            <div style={{ position: "absolute", bottom: "10px", right: "10px" }}>
+              <a href={`${project.gitLink}`} target="_blank" rel="noopener noreferrer">
+                <BiLogoGithub alt="Github logo" style={{ height: "30px", width: "30px", marginLeft: "10px" }} />
+              </a>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}

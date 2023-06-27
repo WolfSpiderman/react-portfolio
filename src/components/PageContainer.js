@@ -31,7 +31,7 @@ export default function PageContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div style={{ backgroundColor: '#f8dac0'}}>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />
