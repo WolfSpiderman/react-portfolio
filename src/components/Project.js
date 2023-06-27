@@ -46,26 +46,7 @@ export default function Project() {
       gitLink: 'https://github.com/WolfSpiderman/readme-generator'
     }
   ];
-
-  const handleMouseLeave = (e) => {
-      const target = e.currentTarget;
-      const relatedTarget = e.relatedTarget;
   
-      // Check if target and relatedTarget are valid nodes
-      if (target instanceof Node && relatedTarget instanceof Node) {
-          if (!target.contains(relatedTarget)) {
-              const nextSibling = target.nextSibling;
-  
-              // Check if nextSibling exists and contains a <a> child element before accessing its style
-              if(nextSibling && nextSibling.querySelector('a')) {
-                  nextSibling.style.display = 'none';
-              }
-          }
-      }
-  };
-  
-  
-
   return (
     <div className="d-flex justify-content-around flex-wrap">
       {projects.map((project, index) => (
