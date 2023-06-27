@@ -69,10 +69,10 @@ export default function Project() {
   return (
     <div className="d-flex justify-content-around flex-wrap">
       {projects.map((project, index) => (
-        <div style={{ position: "relative", display: "inline-block", maxWidth: "40vw", border: "3px solid #ccc", margin: "10px" }} key={index}>
+        <div style={{ position: "relative", display: "inline-block", maxWidth: "40vw", margin: "10px" }} key={index}>
           <div>
             <a href={project.link}>
-              <img src={project.imgSrc} alt={`Screenshot of ${project.title}`} style={{ maxWidth: "40vw" }} className="project-img" />
+              <img src={project.imgSrc} alt={`Screenshot of ${project.title}`} style={{ maxWidth: "40vw", border: "5px outset orangered", boxShadow: '0px 0px 5px rgba(0, 0, 0, 0.25)' }} className="project-img" />
             </a>
           </div>
           <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", color: "#fff", padding: "10px", position: "absolute", bottom: "0", left: "0", right: "0", textAlign: "center" }}>
