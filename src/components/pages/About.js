@@ -10,13 +10,19 @@ export default function About() {
             <div className='aboutPage'>
                 <div className='aboutCard' style={{ padding: 10 }}>
                     <p style={{ fontSize: 20 }}>
-                    As an aspiring web developer, I am passionate about creating attractive and interactive websites that meet customer needs and exceed expectations. I have a strong foundation in HTML, CSS, JavaScript, and server/database development, and am committed to continuous learning and development in this rapidly-evolving field.
+                    Welcome to my portfolio website! I am an aspiring web developer with a passion for creating visually appealing and highly interactive websites that go above and beyond customer expectations. With a strong foundation in HTML, CSS, JavaScript, and server/database development, I am constantly striving to learn and grow in this rapidly evolving field.
                     <br />
                     <br />
-                    In addition, I bring over 11 years of experience in the hospitality industry, where I have demonstrated professional growth by starting in entry-level positions and advancing to desired roles through hard work and dedication. I excel in working collaboratively with others and am skilled in problem-solving and providing exceptional customer service.
+                    What sets me apart is my 11 years of experience in the hospitality industry. Starting from entry level positions and working my way up, I have honed my skills in problem-solving and providing exceptional customer service. My ability to work collaboratively with others has allowed me to excel in delivering outstanding results.
                     <br />
                     <br />
-                    I am eager to apply my skills and experience to a web development role where I can contribute to a team and help create meaningful products that make a positive impact.
+                    But what truly excites me is the opportunity to leverage my knowledge and experience. I take pride in developing websites using cutting-edge technologies, and in this context, I am proud to share that this very portfolio page has been created almost exclusively with React.
+                    <br />
+                    <br />
+                    In building this portfolio, I have aimed to showcase my diverse skillset while ensuring an enjoyable and seemless user experience. Please explore my work and projects, and feel free to reach out for any collaboration opportunities or queries. I look forward to connecting with like-minded individuals and organizations, to create meaningful digital experiences that make a positive impact.
+                    <br />
+                    <br />
+                    Thank you for visiting my portfolio website, and I hope you have a great user experience!
                     </p>
                 </div>
                 <div className='picCard'>
