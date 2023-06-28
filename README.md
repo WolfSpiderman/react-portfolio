@@ -13,8 +13,6 @@ Our challange this week was to recreate our professional portfolio using React.j
 [Usage](#Usage)
 
 [License](#License)
-    
-[Credits](#Credits)
 
 ## Installation
 
