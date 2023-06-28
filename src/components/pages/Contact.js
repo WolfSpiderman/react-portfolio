@@ -55,7 +55,7 @@ export default function Contact() {
         <input type="text" id="email" name="email" value={formData.email} onChange={handleInputChange} onBlur={handleInputBlur} onFocus={() => setErrorMessage('')} />
 
         <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" value={formData.message} onChange={handleInputChange} onBlur={handleInputBlur} onFocus={() => setErrorMessage('')} />
+        <textarea id="message" name="message" style={{ height: 200, width: 300 }} value={formData.message} onChange={handleInputChange} onBlur={handleInputBlur} onFocus={() => setErrorMessage('')} />
 
         <button type="submit" style={{ marginTop: 10 }}>Submit</button>
       </form>
