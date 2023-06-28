@@ -1,0 +1,17 @@
+.projectCard {
+    max-width: 40vw;
+}
+
+img {
+    max-width: 40vw;
+}
+
+@media (max-width: 768px) {
+  .projectCard {
+    max-width: 90vw;
+  }
+
+  img {
+    max-width: 90vw;
+  }
+}

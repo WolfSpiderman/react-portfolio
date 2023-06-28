@@ -1,0 +1,23 @@
+.aboutCard {
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+}
+
+.picCard {
+    max-width: 40vw;
+}
+
+@media (max-width: 768px) {
+    .aboutPage {
+    flex-direction: column;
+    }
+
+    .aboutCard {
+        max-width: 95vw;
+    }
+
+    .picCard {
+        max-width: 95vw;
+    }
+}
