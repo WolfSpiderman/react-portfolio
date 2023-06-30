@@ -33,11 +33,11 @@ export default function Project() {
       gitLink: 'https://github.com/WolfSpiderman/social-network-apis'
     },
     {
-      title: 'Employee Database Manager',
-      subtitle: 'CMS using MySQL, Express, Node.js',
+      title: 'Bad Magic Random Task Generator',
+      subtitle: 'Full Stack: MySQL, Express, Handlebars, Node.js',
       imgSrc: `${process.env.PUBLIC_URL}/images/matrixStock.jpg`,
-      link: 'https://github.com/WolfSpiderman/employee-tracker',
-      gitLink: 'https://github.com/WolfSpiderman/employee-tracker'
+      link: 'https://whbmsc-random-task-gen.herokuapp.com/',
+      gitLink: 'https://github.com/WolfSpiderman/coinChallenge'
     },
     {
       title: 'README Generator',
