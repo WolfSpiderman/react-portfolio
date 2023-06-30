@@ -35,7 +35,7 @@ export default function Project() {
     {
       title: 'Bad Magic Random Task Generator',
       subtitle: 'Full Stack: MySQL, Express, Handlebars, Node.js',
-      imgSrc: `${process.env.PUBLIC_URL}/images/matrixStock.jpg`,
+      imgSrc: `${process.env.PUBLIC_URL}/images/danLynzeMe.jpg`,
       link: 'https://whbmsc-random-task-gen.herokuapp.com/',
       gitLink: 'https://github.com/WolfSpiderman/coinChallenge'
     },
