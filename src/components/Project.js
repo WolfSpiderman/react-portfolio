@@ -40,11 +40,11 @@ export default function Project() {
       gitLink: 'https://github.com/WolfSpiderman/coinChallenge'
     },
     {
-      title: 'README Generator',
-      subtitle: 'Node.js',
+      title: 'Dungeon Finderrz',
+      subtitle: 'MERN Stack w/ GraphQL',
       imgSrc: `${process.env.PUBLIC_URL}/images/workStock.jpg`,
-      link: 'https://github.com/WolfSpiderman/readme-generator',
-      gitLink: 'https://github.com/WolfSpiderman/readme-generator'
+      link: 'https://dungeon-finderrz-e6d696a81520.herokuapp.com',
+      gitLink: 'https://github.com/WolfSpiderman/DungeonFinderrz'
     }
   ];
   
