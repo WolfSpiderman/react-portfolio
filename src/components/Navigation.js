@@ -34,7 +34,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             </Nav.Link>
           </Link>
 
-          <Link 
+          {/* <Link 
             to="/contact"
             onClick={() => handlePageChange('Contact')} 
             style={{ fontSize: "20px", textDecoration: "none", color: "white" }}
@@ -45,7 +45,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             >
               Contact
             </Nav.Link>
-          </Link>
+          </Link> */}
 
           <Link 
             to="/resume"
