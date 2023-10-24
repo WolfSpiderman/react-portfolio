@@ -13,9 +13,9 @@ export default function Footer() {
         <BiLogoLinkedin style={{ minHeight: 100, minWidth: 100, color: '#61b0bb' }}/>
       </a>
 
-      <a href="https://stackoverflow.com/users/22142526/joshua-jenkins">
+      {/* <a href="https://stackoverflow.com/users/22142526/joshua-jenkins">
         <FaStackOverflow style={{ minHeight: 100, minWidth: 100, color: '#61b0bb' }} />
-      </a>
+      </a> */}
     </footer>
   );
 }

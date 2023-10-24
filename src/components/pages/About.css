@@ -4,6 +4,10 @@
     max-width: 50vw;
 }
 
+p {
+    text-align: justify;
+}
+
 .picCard {
     max-width: 40vw;
 }

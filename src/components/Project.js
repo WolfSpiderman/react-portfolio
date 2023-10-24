@@ -22,7 +22,7 @@ export default function Project() {
       title: 'Tech Blog',
       subtitle: 'Full Stack: MySQL, Express, Handlebars, Node.js',
       imgSrc: `${process.env.PUBLIC_URL}/images/stockasdf.jpg`,
-      link: 'https://timesuckblog300.herokuapp.com/',
+      link: 'https://github.com/WolfSpiderman/tech-blog',
       gitLink: 'https://github.com/WolfSpiderman/tech-blog'
     },
     {
@@ -43,7 +43,7 @@ export default function Project() {
       title: 'Dungeon Finderrz',
       subtitle: 'MERN Stack w/ GraphQL',
       imgSrc: `${process.env.PUBLIC_URL}/images/workStock.jpg`,
-      link: 'https://dungeon-finderrz-e6d696a81520.herokuapp.com',
+      link: 'https://github.com/WolfSpiderman/DungeonFinderrz',
       gitLink: 'https://github.com/WolfSpiderman/DungeonFinderrz'
     }
   ];
