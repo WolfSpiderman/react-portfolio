@@ -4,6 +4,10 @@
     max-width: 50vw;
 }
 
+.aboutRow {
+    flex-direction: row;
+}
+
 p {
     text-align: justify;
 }
@@ -17,11 +21,17 @@ p {
     flex-direction: column;
     }
 
+    .aboutRow {
+        flex-direction: column;
+    }
+
     .aboutCard {
         max-width: 95vw;
     }
 
     .picCard {
         max-width: 95vw;
+        order: -1;
+        margin-bottom: 20;
     }
 }

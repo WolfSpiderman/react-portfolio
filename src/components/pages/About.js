@@ -1,4 +1,5 @@
 import React from 'react';
+import './About.css';
 
 export default function About() {
     const me = `${process.env.PUBLIC_URL}/images/Selfie.jpg`;
@@ -6,9 +7,9 @@ export default function About() {
 
     return (
         <main style={{ padding: 10 }}>    
-                <div className='aboutPage'>
+                <div className='aboutPage' style={{ margin: 10 }}>
                 <h1 style={{ textAlign: 'center' }}>About Me</h1>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center' }}>
+                    <div className='aboutRow' style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
                 <div className='aboutCard' style={{ padding: 10 }}>
                     <p style={{ fontSize: 20 }}>
                     Welcome to my portfolio website! I am an aspiring web developer with a passion for creating visually appealing and highly interactive websites that go above and beyond customer expectations. With a strong foundation in HTML, CSS, JavaScript, and server/database development, I am constantly striving to learn and grow in this rapidly evolving field.
