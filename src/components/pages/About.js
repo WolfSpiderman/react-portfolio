@@ -7,13 +7,8 @@ export default function About() {
     return (
         <main style={{ padding: 10 }}>    
                 <div className='aboutPage'>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center' }}>
                 <h1 style={{ textAlign: 'center' }}>About Me</h1>
-                <div className='picCard' style={{ textAlign: 'center' }}>
-                    <img src={me} alt='Selfie of joshua jenkins' style={{ maxHeight: 400 }}></img>
-                    {/* <img src={meDL} alt='Wedding selfie of Josh'></img> */}
-                </div>
-                </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center' }}>
                 <div className='aboutCard' style={{ padding: 10 }}>
                     <p style={{ fontSize: 20 }}>
                     Welcome to my portfolio website! I am an aspiring web developer with a passion for creating visually appealing and highly interactive websites that go above and beyond customer expectations. With a strong foundation in HTML, CSS, JavaScript, and server/database development, I am constantly striving to learn and grow in this rapidly evolving field.
@@ -30,6 +25,11 @@ export default function About() {
                     <br />
                     Thank you for visiting my portfolio website, and I hope you have a great user experience!
                     </p>
+                </div>
+                <div className='picCard' style={{ textAlign: 'center' }}>
+                    <img src={me} alt='Selfie of joshua jenkins' style={{ maxHeight: 400 }}></img>
+                    {/* <img src={meDL} alt='Wedding selfie of Josh'></img> */}
+                </div>
                 </div>
             </div>
         </main>
