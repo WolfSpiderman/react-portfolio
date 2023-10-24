@@ -27,7 +27,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className='picCard' style={{ textAlign: 'center' }}>
-                    <img src={me} alt='Selfie of joshua jenkins' style={{ maxHeight: 400 }}></img>
+                    <img src={me} alt='Selfie of joshua jenkins' style={{ maxHeight: 530 }}></img>
                     {/* <img src={meDL} alt='Wedding selfie of Josh'></img> */}
                 </div>
                 </div>
