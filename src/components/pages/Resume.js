@@ -10,6 +10,9 @@ export default function Resume() {
       </a>
 
       <ul style={{ width: 'fit-content' }}>
+        <li>Front-end Development</li>
+        <li>Back-end Development</li>
+        <li>Full Stack Development</li>
         <li>Critical Thinking</li>
         <li>DRY Practices/Efficiency</li>
         <li>React.js</li>
@@ -18,12 +21,14 @@ export default function Resume() {
         <li>MongoDB & Mongoose</li>
         <li>Express.js</li>
         <li>Node.js</li>
+        <li>Handlebars.js</li>
         <li>Restful API</li>
         <li>GitHub</li>
         <li>jQuery</li>
         <li>Bootstrap</li>
         <li>GraphQL</li>
         <li>Multitasking and Organization</li>
+        <li>MERN Stack</li>
       </ul>
     </main>
   );
